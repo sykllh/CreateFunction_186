@@ -18,4 +18,5 @@ elif unit.upper() == 'F':
 else:
     print("Satuan tidak dikenal. ")
 
-luas_lingkaran = lambda r: 3.14 * r **2
+luas_lingkaran = lambda r: 3.14 *r *r 
+jari_jari =  float(input("Masukkan jari-jari lingkaran:"))
